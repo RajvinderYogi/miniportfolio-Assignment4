@@ -1,0 +1,32 @@
+{
+  "name": "mini-portfolio",
+  "authors": [
+    "RajvinderYogi <rajvinderyogi@yahoo.com>"
+  ],
+  "description": "\"4th assignment Client side scripting\"",
+  "main": "",
+  "keywords": [
+    "Javascript",
+    "createJS"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/RajvinderYogi/mini-prtfolioAssignment4",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "Scripts/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.2.4",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "font-awsome#^4.7.0",
+    "EaselJS": "^0.8.2",
+    "TweenJS": "^0.6.2",
+    "SoundJS": "^0.6.2",
+    "PreloadJS": "^0.6.2"
+  }
+}

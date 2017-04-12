@@ -1,0 +1,26 @@
+{
+    "information":
+    
+    {
+    "MyName": "RAJVINDER SINGH YOGI",
+    "WebDev": "WEB DEVELOPER | BIOGRAPHY",
+    "BioPara":"I’m a web developer. I spend my whole day, practically every day, experimenting with HTML, CSS, and JavaScript; I build websites that delight and inform. I do it well. I enjoy work that challenges me to learn something new and stretch in a different direction. I do my best to stay on top of changes in the state of the art so that I can meet challenges with tools well suited to the job at hand. I moved to Alberta from India a year ago; have been studying and learning the language at Gerogian College in Barrie for the time being.",
+   
+    "FirstHeading":"Live Website",
+    "FirstSubHeading":"Broadway Animal Hospital",
+    "Project1Para":"I designed this website in wordpress. Owner(my uncle) of website is a veterinarian and owns an animal clinic in Orangeville. This website has a service to book appointments online. This website helped Dr. Yogi to improve their business in many ways.",
+   
+    "SecondHeading":"Movie Poster",
+    "SecondSubHeading":"Assignmet 1st Semester",
+    "Project2Para":"This movie-poster was designed by me in previous semester using CSS and HTML. 'Scott Mcrindlle' guided me in this project. It has the link to original website of 'The Fast and Furious' movie. It helped me alot to learn new properties of CSS. ",
+    
+    "ThirdHeading":"Photography",
+    "ThirdSubHeading":"Exceptional Photography",
+    "Project3Para":"I took this picture nearby Bell fountain. This picture is one of the finest Photography done by by me. It was a raining when I took this picture. This picture got reward from some professional photogrphers too.",
+
+    "ContactHeading":"Contact Me"
+    }
+    
+}
+
+    

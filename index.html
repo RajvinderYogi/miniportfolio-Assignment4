@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Biography::Raj Yogi</title>
+    <link rel="shortcut icon" href="Images/raj-yogi.png">
+    <link rel="apple-touch-icon" href="Images/raj-yogi.png">
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="./Scripts/lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Scripts/lib/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="./Scripts/lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./Content/portfolio.css">
+    </head>
+    <body>
+        <!-- Navigation mainly from bootstrap but also did manipulation withh CSS-->
+        <nav><!--Navigation menu starts here-->
+            <div class="navbar navbar-inverse navbar-fixed-left">
+                <a class="navbar-brand" href="index.html"><img src="Images/raj-yogi.png" alt="Logo" title="Logo" height="100px" width="100px"/>
+                    <h1 class="site-title">Rajvinder Yogi</h1></a>
+                <div class="navbar-header">            
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>            
+                </div>       
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active" id="first"><a href="index.html"><i class="fa fa-home fa-1x"></i>  Home</a></li>
+                        <li><a href="portfolio.html"><i class="fa fa-id-card fa-1x"></i>  Portfolio</a></li>
+                        <li><a href="contact.html"><i class="fa fa-envelope fa-1x"></i>  Contact</a></li>
+                    </ul>
+                </div>
+                <div class="header-bottom">
+                    <a href="https://github.com/RajvinderYogi"><i class="fa fa-github fa-3x social"></i></a>
+                    <a href="https://www.linkedin.com/in/rajvinder-yogi-1022a681"><i class="fa fa-linkedin-square fa-3x social"></i></a>
+                    <a href="mailto:rajvinder.yogi@mygeorgian.ca"><i class="fa fa-envelope-square fa-3x social"></i></a>
+                    <h4>&copy 2017 - Rajvinder Yogi - All Rights Reserved.</h4>
+                </div>
+            </div>
+        </nav><!--Navigation menu ends here-->
+        <main class="bioPage"><!-- Main body of page starts here-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-offset-2 col-md-10">
+                        <img class="personal" src="Images/raj.jpg" alt="personal image" title="personal image" width="320px" height="350px"/>
+                        <div class="text">
+                            <h1 id="heading"></h1>
+                            <h3 id="title"></h3>
+                            <p id="paragraph"></p>
+                            <div class="adCanvas"><canvas id="ProjectsAd" width="468" height="60"></canvas></div>
+
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </main><!-- Main body of page ends here-->
+  <!-- JavaScript Section -->
+        <script src="./Scripts/lib/jquery/dist/jquery.min.js"></script>
+        <script src="./Scripts/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="./Scripts/lib/EaselJS/lib/easeljs-0.8.2.min.js"></script>
+        <script src="./Scripts/lib/PreloadJS/lib/preloadjs-0.6.2.combined.js"></script>
+        <script src="./Scripts/lib/SoundJS/lib/soundjs-0.6.2.min.js"></script>
+        <script src="./Scripts/lib/TweenJS/lib/tweenjs-0.6.2.min.js"></script>
+        <script src="./Scripts/portfolio.js"></script>
+        <script src="./Scripts/core/create-ad.js"></script>
+    </body>
+</html> 
