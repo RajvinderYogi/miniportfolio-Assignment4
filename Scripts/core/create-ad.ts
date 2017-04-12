@@ -20,8 +20,8 @@ function Start(){
  */
 function Update(event:createjs.Event):void {
     // AdText.rotation += 1;
-    AdText.x += 0.1;
-    AdText.y -= 0.1;
+    AdText.x += 0.01;
+    AdText.y -= 0.01;
     stage.update();
 }
 /**
