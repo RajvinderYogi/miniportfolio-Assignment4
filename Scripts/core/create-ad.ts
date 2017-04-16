@@ -1,7 +1,8 @@
 (function(){
 let ProjectsAd:HTMLElement = document.getElementById("ProjectsAd")
 let stage:createjs.Stage;
-let AdText:createjs.Text;
+let AdText:objects.Label;
+let SubText:objects.Label;
 /**
  * 
  * @method Start
@@ -19,9 +20,7 @@ function Start(){
  * @returns void
  */
 function Update(event:createjs.Event):void {
-    // AdText.rotation += 1;
-    AdText.x += 0.01;
-    AdText.y -= 0.01;
+   
     stage.update();
 }
 /**
@@ -33,13 +32,12 @@ function Update(event:createjs.Event):void {
 function Main():void{
     console.log("This is my Portfolio!");
 
-    AdText = new createjs.Text("See my Project Work!","50px Times", "lime");
-    AdText.textBaseline = "hanging";
-    AdText.regX = AdText.getMeasuredWidth()*0.5;
-    AdText.regY = AdText.getMeasuredHeight()*0.5;
-    AdText.y=35;
-    AdText.x=230;
+    AdText = new objects.Label("See my Project Work!","25px", "Times", "lime", 235, 15, true);
+
     stage.addChild(AdText);
+
+    SubText = new objects.Label("Logo Designs | Web Development | PHP | Java Script | Adobe Applications", "12px", "Arial", "white", 225, 50, true);
+    stage.addChild(SubText);
 
 }
 window.onload = Start;
