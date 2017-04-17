@@ -21,8 +21,8 @@ var objects;
         __extends(Button, _super);
         /**
          * Creates an instance of Button.
-         * @param {string} _imageString
-         * @param {boolean} _isCentered
+         * @param {string} _imagePath
+         * @param {boolean} _centered
          * @param {number} _width
          * @param {number} _height
          * @param {number} x
@@ -30,13 +30,13 @@ var objects;
          *
          * @memberOf Button
          */
-        function Button(_imageString, _isCentered, _width, _height, x, y) {
-            var _this = _super.call(this, _imageString) || this;
-            _this._imageString = _imageString;
-            _this._isCentered = _isCentered;
+        function Button(_imagePath, _centered, _width, _height, x, y) {
+            var _this = _super.call(this, _imagePath) || this;
+            _this._imagePath = _imagePath;
+            _this._centered = _centered;
             _this._width = _width;
             _this._height = _height;
-            if (_isCentered) {
+            if (_centered) {
                 _this.regX = _this._width * 0.5;
                 _this.regY = _this._height * 0.5;
             }
