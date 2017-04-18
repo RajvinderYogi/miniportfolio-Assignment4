@@ -3,12 +3,12 @@ module objects{
      * 
      * 
      * @export
-     * @class Label
+     * @class adText
      * @extends {createjs.Text}
      */
-    export class Label extends createjs.Text{
+    export class adText extends createjs.Text{
         /**
-         * Creates an instance of Label.
+         * Creates an instance of adText.
          * @param {string} textString 
          * @param {string} fontSize 
          * @param {string} fontType 
@@ -17,7 +17,7 @@ module objects{
          * @param {number} y 
          * @param {boolean} isCentered 
          * 
-         * @memberOf Label
+         * @memberOf adText
          */
         constructor(private textString:string, 
                     private fontSize:string,

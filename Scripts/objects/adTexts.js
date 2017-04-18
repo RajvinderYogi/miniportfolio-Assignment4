@@ -14,13 +14,13 @@ var objects;
      *
      *
      * @export
-     * @class Label
+     * @class adText
      * @extends {createjs.Text}
      */
-    var Label = (function (_super) {
-        __extends(Label, _super);
+    var adText = (function (_super) {
+        __extends(adText, _super);
         /**
-         * Creates an instance of Label.
+         * Creates an instance of adText.
          * @param {string} textString
          * @param {string} fontSize
          * @param {string} fontType
@@ -29,9 +29,9 @@ var objects;
          * @param {number} y
          * @param {boolean} isCentered
          *
-         * @memberOf Label
+         * @memberOf adText
          */
-        function Label(textString, fontSize, fontType, fontColor, x, y, isCentered) {
+        function adText(textString, fontSize, fontType, fontColor, x, y, isCentered) {
             var _this = _super.call(this, textString, fontSize + " " + fontType, fontColor) || this;
             _this.textString = textString;
             _this.fontSize = fontSize;
@@ -46,8 +46,8 @@ var objects;
             _this.y = y;
             return _this;
         }
-        return Label;
+        return adText;
     }(createjs.Text));
-    objects.Label = Label;
+    objects.adText = adText;
 })(objects || (objects = {}));
 //# sourceMappingURL=adTexts.js.map
