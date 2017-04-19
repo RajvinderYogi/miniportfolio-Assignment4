@@ -1,3 +1,9 @@
+/*Author Name= Rajvinder Singh Yogi
+Student Number=200353207
+Website= Mini-portfolio
+File Name= adTexts
+This file includes constructor which creates an instance for content within the ad.
+-----------------------------------------------------------------------------------------------------------*/
 module objects{
     /**
      * 

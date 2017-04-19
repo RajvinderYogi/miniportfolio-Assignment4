@@ -8,6 +8,12 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
+/*Author Name= Rajvinder Singh Yogi
+Student Number=200353207
+Website= Mini-portfolio
+File Name= adTexts
+This file includes constructor which creates an instance for content within the ad.
+-----------------------------------------------------------------------------------------------------------*/
 var objects;
 (function (objects) {
     /**

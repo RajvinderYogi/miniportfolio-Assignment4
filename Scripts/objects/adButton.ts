@@ -1,3 +1,11 @@
+/*Author Name= Rajvinder Singh Yogi
+Student Number=200353207
+Website= Mini-portfolio
+File Name= adButton
+This file includes constructor which allow us to use image in this ad. Morever in this file I have included the effects on mouse Hover.
+
+-----------------------------------------------------------------------------------------------------------*/
+
 module objects {
     /**
      * 

@@ -1,3 +1,10 @@
+/*Author Name= Rajvinder Singh Yogi
+Student Number=200353207
+Website= Mini-portfolio
+File Name= adButton
+This file includes constructor which allow us to use image in this ad. Morever in this file I have included the effects on mouse Hover.
+
+-----------------------------------------------------------------------------------------------------------*/
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||

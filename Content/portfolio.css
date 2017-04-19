@@ -100,12 +100,14 @@ h1{
 p{
     text-align: justify;
     }
+    /*set ad border and shadow*/
 canvas{
     border: 2px solid green;
     background: rgba(100, 50, 25, 0.25);
     box-shadow: 5px 5px 5px #000000;
    
 }
+/*set ad position on the page*/
 .adCanvas{
     margin: 40% 0 0 0;
 }

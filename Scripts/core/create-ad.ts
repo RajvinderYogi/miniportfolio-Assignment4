@@ -1,3 +1,11 @@
+/*Author Name= Rajvinder Singh Yogi
+Student Number=200353207
+Website= Mini-portfolio
+File Name= create-ad
+This file includes all the content I have used in ad canvas, moreover the animations
+
+-----------------------------------------------------------------------------------------------------------*/
+
 (function(){
 let ProjectsAd:HTMLElement = document.getElementById("ProjectsAd");
 let stage:createjs.Stage;
@@ -35,9 +43,8 @@ if (SubText.x < -200) { SubText.x = 650; }
  */
 
 function Main():void{
-    console.log("This is my Portfolio!");
 
-    AdText = new objects.adText("See my Project Work  --->","25px", "Arial", "blue", 175, 15, true);
+    AdText = new objects.adText("See my Project Work  --->","25px", "Arial", "lime", 175, 15, true);
     stage.addChild(AdText);
 
     SubText = new objects.adText("Logo Designs | Web Development | PHP | Java Script | Adobe Applications", "12px", "Arial", "white", 235, 50, true);
